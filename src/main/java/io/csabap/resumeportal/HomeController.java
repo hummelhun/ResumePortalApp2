@@ -10,4 +10,8 @@ public class HomeController {
     public String hello(){
         return "Hello";
     }
+    @GetMapping("/edit")
+    public String edit(){
+        return "Edit page";
+    }
 }
